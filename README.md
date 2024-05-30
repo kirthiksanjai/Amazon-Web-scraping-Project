@@ -34,15 +34,15 @@ Loading Data into Pandas DataFrame: The JSON data is loaded into a pandas DataFr
 
 Saving Data to CSV: The DataFrame is saved into a CSV file, providing a tabular representation of the scraped data that is easy to view and analyze.
 
-## Function Explanations
+##  Function Explanations
 
-#BeautifulSoup
+# BeautifulSoup
 BeautifulSoup(html_content, 'html.parser'): This creates a BeautifulSoup object from the HTML content, allowing for easy navigation and data extraction from the HTML structure.
 
-#find_all
+# find_all
 soup.find_all('div', class_="..."): This function searches for all div elements in the HTML content that have the specified class. It returns a list of all matching elements.
 
-#find
+# find
 div.find('img', class_='s-image s-image-optimized-rendering'): This function searches within a specific div element for an img tag with the specified class. It returns the first matching element or None if no match is found.
 
 div.find('span', class_='a-size-base-plus a-color-base a-text-normal'): Similar to the above, this searches for a span tag with the specified class within a specific div element.
@@ -51,10 +51,10 @@ div.find('span', class_='a-icon-alt'): Searches for a span tag with the specifie
 
 div.find('span', class_='a-price-whole'): Searches for a span tag with the specified class within a specific div element.
 
-#JSON Handling
+# JSON Handling
 json.dump(data, json_file, ensure_ascii=False, indent=4): This function writes the extracted data to a JSON file. The ensure_ascii=False parameter ensures that non-ASCII characters are preserved, and indent=4 makes the output more readable by indenting nested structures by four spaces.
 
-#Pandas
+# Pandas
 pd.read_json('amazon_data.json'): This function reads the JSON data into a pandas DataFrame, allowing for easy data manipulation and analysis.
 
 df_csv.to_csv(output_csv_path, index=False): This function writes the DataFrame to a CSV file. The index=False parameter prevents pandas from writing row indices to the file.
