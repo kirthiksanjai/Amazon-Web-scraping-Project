@@ -12,11 +12,6 @@ To run this project, you need to have Python installed on your system along with
 - BeautifulSoup
 - pandas
 
-You can install the required libraries using pip:
-
-```bash
-pip install beautifulsoup4 pandas
-
 ##Usage
 Save the HTML content of an Amazon search result page to your local system.
 Update the file path in the script to point to your saved HTML file.
