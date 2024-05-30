@@ -1,14 +1,6 @@
 # Amazon-Web-scraping-Project
 Webscraping with python project.This project demonstrates how to scrape product information from an Amazon webpage using Python. The scraped data includes product images, titles, ratings, and prices, which are then saved into JSON and CSV files for further analysis.
 
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Detailed Steps](#detailed-steps)
-
-
 ## Introduction
 
 The goal of this project is to extract product data from an Amazon webpage. This involves parsing the HTML content of a saved Amazon page, extracting relevant product details, and saving the extracted data into JSON and CSV files.
